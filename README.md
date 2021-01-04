@@ -1,17 +1,14 @@
 # Simple Web Page Hit Counter
 
+Serving a simple web with hit counter printed to screen and 'Reset Count' button.
+
 ## Components 
 
-1.	Server – Tracking client requests
+1. Server – Flask 
+   
+2. Client - Jinja2
 
-    a.Flask Backend 
-    
-    b.Sqlite3 for DB
-
-2.	Client – Serving a simple web with hit counter printed to screen and 'Reset Count' button.
-
-    a.Jinja2 for UI
-
+3. DB - Sqlite3
 
 
 ## Installation

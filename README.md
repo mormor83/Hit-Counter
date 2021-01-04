@@ -43,4 +43,5 @@ A log file will be written to the host server under the current working director
             - ./log:/app/log
 
     ./log  => The host server path
+    
     :/app/log => The docker path to the log

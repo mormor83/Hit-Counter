@@ -1,0 +1,10 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<p>This page is counting number of times the page was served</p>
+<p>The number is: {{ hits_counter }} </p>
+
+<form method="POST" class="col">
+    <div>
+        {{ form.reset_hit_count }}
+    </div>
+</form>
